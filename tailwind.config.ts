@@ -14,7 +14,19 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        'ctx-blue': 'rgb(59, 120, 255)',
+        "ctx-blue": "rgb(59, 120, 255)",
+      },
+      gridTemplateColumns: {
+        "16": "repeat(16, minmax(0, 1fr))",
+      },
+      gridColumn: {
+        "span-16": "span 16 / span 16",
+      },
+      maxWidth: {
+        "65ch": "65ch",
+      },
+      aspectRatio: {
+        "1079/575": "1079 / 575",
       },
     },
   },
