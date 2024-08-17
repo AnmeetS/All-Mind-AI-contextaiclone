@@ -11,9 +11,7 @@ import Testimonial from "./Testimonial";
 const Landing = () => {
   return (
     <div className="flex text-slate-700 flex-col items-center gap-16 lg:gap-32">
-      <div className="pt-8 grid grid-cols-16 items-center max-w-7xl">
-        <Hero></Hero>
-      </div>
+        <Hero/>
       <div className="section flex flex-col items-center gap-4">
         <TrustedBy />
       </div>
