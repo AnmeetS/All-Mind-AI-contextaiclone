@@ -27,11 +27,9 @@ const config: Config = {
         "400/91": "400 / 91",
         "800/873": "800 / 873",
         "74/11": "74 / 11",
-
-        
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography"),],
 };
 export default config;
