@@ -14,7 +14,7 @@ const Hero = () => {
               Products.
             </div>
           </div>
-          <div className="max-w-65ch text-slate-700 text-balance">
+          <div className="max-w-prose text-slate-700 text-balance">
             <p>
               Context.ai helps you understand natural language in your LLM
               powered products.
