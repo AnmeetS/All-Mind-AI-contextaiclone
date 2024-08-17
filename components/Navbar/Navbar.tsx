@@ -4,23 +4,29 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="max-w-6xl flex justify-between items-center py-4 border-b min-w-0 max-h-[54.19px] lg:max-h-[71px]">
-      <div className="w-4 lg:w-28 h-10 gap-x-8 relative">
+    <div className="max-w-6xl flex justify-between items-center py-4 border-b min-w-0">
+      <div className="w-4 lg:w-28 gap-x-8">
         <div className="lg:block hidden w-full">
-          <Link href="/" className="absolute w-full h-full">
+          <Link href="/">
             <Image
               src="https://with.context.ai/assets/full_logo-d7c8d4f1d8637fe46c18bfe516ff24f0e7054bf429df4621ef78fa279e4f1a53.svg"
               alt="context ai logo full"
-              fill={true}
+              layout="responsive"
+              width={500}
+              height={300}
+              objectFit="contain"
             />
           </Link>{" "}
         </div>
         <div className="lg:hidden w-full block shrink-0">
-          <Link href="/" className="absolute w-full h-full">
+          <Link href="/">
             <Image
               src="https://with.context.ai/assets/logo-a21fdf404614f829709f33a78567d99244a787c8af7d9b4451b68e298435ffb7.svg"
               alt="context ai logo"
-              fill={true}
+              layout="responsive"
+              width={500}
+              height={300}
+              objectFit="contain"
             />
           </Link>{" "}
         </div>

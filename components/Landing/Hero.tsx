@@ -51,14 +51,15 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="col-span-10 hidden md:block relative w-full aspect-[1079/575]">
-        <Image className="absolute"
-          src="https://with.context.ai/assets/marketing/hero_evals_preview-99333b57fe6a926ce3be4269d8f2473dccd9e9e5a716bcc3bd5d64b759b526a2.svg"
-          layout="fill"
-          objectFit="cover"
-          alt="heroevalpreview"
-        />
-      </div>
+      <Image
+        className="col-span-10 hidden md:block"
+        src="https://with.context.ai/assets/marketing/hero_evals_preview-99333b57fe6a926ce3be4269d8f2473dccd9e9e5a716bcc3bd5d64b759b526a2.svg"
+        alt="heroevalpreview"
+        layout="responsive"
+        width={500}
+        height={300}
+        objectFit="contain"
+      />
     </div>
   );
 };
