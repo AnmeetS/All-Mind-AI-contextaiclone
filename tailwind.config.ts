@@ -22,11 +22,8 @@ const config: Config = {
       gridColumn: {
         "span-16": "span 16 / span 16",
       },
-      aspectRatio: {
-        "1079/575": "1079 / 575",
-        "400/91": "400 / 91",
-        "800/873": "800 / 873",
-        "74/11": "74 / 11",
+      fontFamily: {
+        sans: ['Inter var', 'sans-serif'],
       },
     },
   },
