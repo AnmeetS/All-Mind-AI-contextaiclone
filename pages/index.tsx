@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Landing from "@/components/Landing/Landing";
 import Navbar from "@/components/Navbar/Navbar";
 import PreFooterSection from "@/components/Footer/PreFooterSection";
+import Footer from "@/components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,9 +18,7 @@ export default function Home() {
           </div>
         </div>
         <PreFooterSection/>
-        <div className="footer max-w-6xl mx-auto">
-
-        </div>
+        <Footer/>
       </div>
     </main>
   );
