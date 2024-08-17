@@ -19,10 +19,20 @@ const Footer = () => {
           <span className="text-sm text-slate-600">© 2023-2024 Context</span>
         </div>
         <div className="items flex items-center gap-x-8 text-sm flex-wrap text-black">
-          <Link href="https://context.ai/terms">Terms and Conditions</Link>
-          <Link href="https://context.ai/privacy">Privacy Policy</Link>
-          <Link href="https://context.ai/compare/gpt-3-5-turbo/gpt-4-turbo-preview">
-            <div className="flex items-center gap-1 rounded text-ctx-blue border-rounded border border-ctx-blue p-2 shadow-sm">
+          <Link className="hover:text-ctx-blue" href="https://context.ai/terms">
+            Terms and Conditions
+          </Link>
+          <Link
+            className="hover:text-ctx-blue"
+            href="https://context.ai/privacy"
+          >
+            Privacy Policy
+          </Link>
+          <Link
+            className="hover:text-ctx-blue"
+            href="https://context.ai/compare/gpt-3-5-turbo/gpt-4-turbo-preview"
+          >
+            <div className="flex items-center gap-1 rounded text-ctx-blue border-rounded border border-ctx-blue p-2 shadow-sm transform transition-transform duration-200 hover:scale-105 hover:bg-blue-100">
               Compare Models
               <svg
                 xmlns="http://www.w3.org/2000/svg"

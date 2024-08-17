@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const PreFooterSection = () => {
@@ -13,8 +14,8 @@ const PreFooterSection = () => {
                   <span>Measure &amp; Improve LLM</span>
                   <span>Product Performance.</span>
                 </div>
-                <a
-                  className="sm:py-1.5 sm:px-4 py-1 px-4 w-fit text-blue-900 sm:text-sm text-xs rounded-md flex items-center gap-2 border-ctx-blue bg-white text-center"
+                <Link
+                  className="sm:py-1.5 sm:px-4 py-1 px-4 w-fit text-blue-900 sm:text-sm text-xs rounded-md flex items-center gap-2 border-ctx-blue bg-white text-center transform transition-transform duration-200 hover:scale-105 hover:bg-blue-100"
                   href="https://with.context.ai"
                 >
                   Get Started
@@ -26,12 +27,12 @@ const PreFooterSection = () => {
                     className="w-4 h-4"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
-                </a>{" "}
+                </Link>{" "}
               </div>
             </div>
           </div>

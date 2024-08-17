@@ -8,11 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       colors: {
         "ctx-blue": "rgb(59, 120, 255)",
       },
@@ -23,10 +18,12 @@ const config: Config = {
         "span-16": "span 16 / span 16",
       },
       fontFamily: {
-        sans: ['Inter var', 'sans-serif'],
+        sans: ["Inter var", "sans-serif"],
       },
     },
   },
-  plugins: [require("@tailwindcss/typography"),],
+  plugins: [
+    require("@tailwindcss/typography"), 
+  ],
 };
 export default config;

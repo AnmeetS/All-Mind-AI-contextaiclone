@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-
 const GettingStarted = () => {
   return (
     <div className="flex flex-col items-center gap-4">
@@ -39,7 +38,7 @@ const GettingStarted = () => {
               </p>
               <div className="flex">
                 <Link
-                  className="rounded flex items-center gap-2 text-ctx-blue border-ctx-blue p-2 border shadow text-center"
+                  className="rounded flex items-center gap-2 text-ctx-blue border-ctx-blue p-2 border shadow text-center transform transition-transform duration-200 hover:scale-105 hover:bg-blue-100"
                   href="https://docs.context.ai"
                 >
                   Learn more
@@ -54,7 +53,7 @@ const GettingStarted = () => {
                       fillRule="evenodd"
                       d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
                       clipRule="evenodd"
-                    ></path>
+                    />
                   </svg>
                 </Link>{" "}
               </div>

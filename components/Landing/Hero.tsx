@@ -23,13 +23,13 @@ const Hero = () => {
           <div className="flex whitespace-nowrap">
             <div className="flex items-center gap-4 text-sm justify-start">
               <Link
-                className="px-3 py-2 rounded flex items-center gap-2 text-ctx-blue border-ctx-blue p-2 border shadow w-full text-center"
+                className="px-3 py-2 rounded flex items-center gap-2 text-ctx-blue border-ctx-blue p-2 border shadow w-full text-center transform transition-transform duration-200 hover:scale-105 hover:bg-blue-100"
                 href="https://context.ai/demo"
               >
                 Book a demo
               </Link>{" "}
               <Link
-                className="px-3 py-2 rounded flex items-center gap-1 text-white border-ctx-blue bg-ctx-blue border shadow w-full text-center"
+                className="px-3 py-2 rounded flex items-center gap-1 text-white border-ctx-blue bg-ctx-blue border shadow w-full text-center transform transition-transform duration-200 hover:scale-105 hover:bg-blue-700"
                 href="https://with.context.ai"
               >
                 Get Started

@@ -33,20 +33,31 @@ const Navbar = () => {
       </div>
       <div className="items flex items-center gap-x-8 text-sm whitespace-nowrap min-w-0 flex-wrap">
         <div className="flex items-center gap-x-4 lg:gap-x-8">
-          <Link href="https://context.ai/pricing">Pricing</Link>
-          <Link href="https://context.ai/about">About Us</Link>
-          <Link href="https://blog.context.ai">Blog</Link>
-          <Link href="https://docs.context.ai">Docs</Link>
+          <Link
+            className="hover:text-ctx-blue"
+            href="https://context.ai/pricing"
+          >
+            Pricing
+          </Link>
+          <Link className="hover:text-ctx-blue" href="https://context.ai/about">
+            About Us
+          </Link>
+          <Link className="hover:text-ctx-blue" href="https://blog.context.ai">
+            Blog
+          </Link>
+          <Link className="hover:text-ctx-blue" href="https://docs.context.ai">
+            Docs
+          </Link>
         </div>
         <div className="items-center gap-x-4 lg:flex hidden">
           <Link
-            className="px-3 py-2 rounded flex items-center gap-2 text-ctx-blue border-ctx-blue p-2 border shadow w-full text-center"
-            href="/demo"
+            className="px-3 py-2 rounded flex items-center gap-2 text-ctx-blue border-ctx-blue p-2 border shadow w-full text-center transform transition-transform duration-200 hover:scale-105 hover:bg-blue-100"
+            href="https://context.ai/demo"
           >
             Book a demo
           </Link>{" "}
           <Link
-            className="px-3 py-2 rounded flex items-center gap-1 text-white border-ctx-blue bg-ctx-blue border shadow w-full text-center"
+            className="px-3 py-2 rounded flex items-center gap-1 text-white border-ctx-blue bg-ctx-blue border shadow w-full text-center transform transition-transform duration-200 hover:scale-105 hover:bg-blue-700"
             href="https://with.context.ai"
           >
             Get Started
